@@ -1,0 +1,12 @@
+<?php  
+$num = 1234567;  
+$sum = 0;  
+$rem = 0;  
+while ($num > 0)
+{  
+    $rem = $num % 10;  
+    $sum = $sum + $rem;  
+    $num = (int)($num / 10);
+}
+echo "Sum of digits is: " . $sum;  
+?>  
